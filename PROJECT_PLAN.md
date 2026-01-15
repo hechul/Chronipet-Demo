@@ -203,12 +203,15 @@ CREATE UNIQUE INDEX idx_users_username_active ON users(username) WHERE is_delete
 
 ## 🚀 현재 진행 상황
 
-### Phase 1 진행률
+### Phase 1: 프로젝트 초기 구성 ✅ **완료**
 - [x] Step 1: Nuxt.js + TypeScript 프로젝트 생성 ✅
 - [x] Step 2: Supabase 클라이언트 라이브러리 설치 ✅
 - [x] Step 3: Supabase 프로젝트 생성 및 환경 변수 설정 ✅
 - [x] Step 4: 데이터베이스 스키마 SQL 실행 ✅
-- [ ] **Step 5: Git 저장소 초기화** ← 현재 진행
+- [x] Step 5: Git 저장소 초기화 & GitHub 연결 ✅
+
+### Phase 2: 백엔드 기본 로직 - 진행 중
+- [ ] **Step 1: Supabase 클라이언트 초기화** ← 다음 단계
 
 ---
 
